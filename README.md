@@ -1,6 +1,6 @@
 <div align="center">
 
-# CON ARTE · Bar & Restaurante
+# CON ARTE</br>Bar & Restaurante
 
 <p>
   <b>Gestión y Publicación (mobile-first) Carta Digital</b><br>
@@ -90,5 +90,4 @@
 <a href="https://manolorecio.github.io/Manolo-Recio-Portfolio/" target="_blank">
   <img src="https://github.com/manolorecio/Manolo-Recio-Portfolio/blob/main/LOGOVERDE.png?raw=true" width="120" alt="Manolo Recio Logo">
 </a>
-
 </div>
