@@ -7,7 +7,7 @@
 </div>
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/con-arte-bar-y-restaurante/carta-digital/920598f20f879c3f60937729cdf64d70ada030d1/images/logo-con-arte.svg" width="200" alt="Logo CON ARTE · Bar & Restaurante">
+  <img src="https://raw.githubusercontent.com/con-arte-bar-y-restaurante/carta-digital/920598f20f879c3f60937729cdf64d70ada030d1/images/logo-con-arte.svg" width="400" alt="Logo CON ARTE · Bar & Restaurante">
 
  
   <p>
