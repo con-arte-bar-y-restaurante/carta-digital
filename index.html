@@ -322,15 +322,48 @@
     <script>
         const fromSafeBase64 = (str) => decodeURIComponent(atob(str).split('').map(c => '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2)).join(''));
         
-        function scrollToCategory(safeId, isFirst) {
-          if (isFirst) {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-          } else {
-            const el = document.getElementById(safeId);
-            if (el) {
-              el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        let isProgrammaticScrolling = false;
+
+        function smoothScrollTo(targetY, duration = 650) {
+          isProgrammaticScrolling = true;
+          const startY = window.pageYOffset || window.scrollY;
+          const difference = targetY - startY;
+          const startTime = performance.now();
+          
+          function step(timestamp) {
+            const progress = Math.min((timestamp - startTime) / duration, 1);
+            // Cubic easeInOut easing curve for luxurious feel
+            const ease = progress < 0.5 
+              ? 4 * progress * progress * progress 
+              : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+              
+            window.scrollTo(0, startY + difference * ease);
+            
+            if (progress < 1) {
+              requestAnimationFrame(step);
+            } else {
+              window.scrollTo(0, targetY);
+              setTimeout(() => {
+                isProgrammaticScrolling = false;
+              }, 150);
             }
           }
+          requestAnimationFrame(step);
+        }
+
+        function scrollToCategory(safeId, isFirst) {
+          const header = document.getElementById('main-header');
+          const headerHeight = header ? header.offsetHeight : 0;
+          let targetY = 0;
+          
+          if (!isFirst) {
+            const el = document.getElementById(safeId);
+            if (el) {
+              targetY = el.offsetTop - headerHeight - 15;
+            }
+          }
+          
+          smoothScrollTo(targetY, 650);
         }
 
         const DATA = {
@@ -458,10 +491,12 @@
         window.onscroll = () => {
           const currentScroll = window.scrollY;
           if (currentScroll > 400) topBtn.classList.add('visible'); else topBtn.classList.remove('visible');
-          if (currentScroll > 150) {
-            if (currentScroll > lastScroll) header.classList.add('header-hidden');
-            else header.classList.remove('header-hidden');
-          } else header.classList.remove('header-hidden');
+          if (!isProgrammaticScrolling) {
+            if (currentScroll > 150) {
+              if (currentScroll > lastScroll) header.classList.add('header-hidden');
+              else header.classList.remove('header-hidden');
+            } else header.classList.remove('header-hidden');
+          }
           lastScroll = currentScroll;
 
           // ScrollSpy logic to highlight active section category button
