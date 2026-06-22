@@ -1,7 +1,7 @@
 <div align="center">
 
-
-# Carta Digital Inteligente con Gestión de Alérgenos en Tiempo Real
+# CON ARTE | Bar & Restaurante
+### Carta Digital Inteligente · Accesibilidad Universal y Gestión de Alérgenos
 
 <br>
 
@@ -18,18 +18,32 @@
 | Español | English |
 | :--- | :--- |
 | **Carta digital de alto rendimiento.** | **High-performance digital menu.** |
-| PWA diseñada para la gestión autónoma, transparencia en alérgenos y experiencia bilingüe. | PWA designed for autonomous management, allergen transparency, and bilingual experience. |
+| PWA centrada en la autonomía del usuario, seguridad alimentaria y experiencia visual adaptativa. | PWA focused on user autonomy, food safety, and adaptive visual experience. |
 
 ---
 
-### 🌟 Características Clave | Key Features
+### 🌟 Características Principales | Key Features
 
 | Característica | Español | English |
 | :--- | :--- | :--- |
-| **Validación Automática** | Revisión y asignación automática de alérgenos por plato. | Automatic allergen verification for every dish. |
-| **Filtrado Dinámico** | Ocultación de platos en tiempo real según alergias. | Real-time dish filtering based on allergies. |
-| **Diseño Mobile-First** | Navegación táctil optimizada para smartphones. | Touch-optimized UI for mobile devices. |
+| **Validación Automática** | Revisión y asignación inteligente de alérgenos. | Automatic and intelligent allergen validation. |
+| **Filtro Dinámico** | Ocultación de platos en tiempo real según alergias. | Real-time dish filtering based on allergies. |
+| **Accesibilidad Visual** | Ajustes avanzados de legibilidad y tipografía. | Advanced readability and typography adjustments. |
 | **Gestión Bilingüe** | Contenido nativo en español e inglés. | Native content in Spanish and English. |
+
+---
+
+### 👁️ Asistente de Ajustes Visuales | Visual Settings Assistant
+
+Hemos implementado un centro de control unificado que permite a cada usuario adaptar la carta a sus necesidades de lectura personal:
+
+| Control | Función (ES) | Function (EN) |
+| :--- | :--- | :--- |
+| **Tamaño de Texto** | Ajuste dinámico de fuente (100% - 150%). | Dynamic font size adjustment. |
+| **Modo Grayscale** | Optimización para fatiga visual. | Grayscale mode for eye comfort. |
+| **Alto Contraste** | Mejora de legibilidad en luz intensa. | High contrast for better visibility. |
+| **Fuente Dislexia** | Tipografía optimizada para lectura sencilla. | Readable font for dyslexia support. |
+| **Guía de Lectura** | Enfoque visual activo para el usuario. | Active visual reading guide. |
 
 ---
 
@@ -38,9 +52,8 @@
 | Componente | Tecnología |
 | :--- | :--- |
 | **Core** | React + TypeScript |
-| **UI/UX** | Tailwind CSS |
-| **Build Tool** | Vite |
-| **Seguridad** | Motor de validación pre-despliegue + Iconografía SVG (AESAN) |
+| **UI/UX** | Tailwind CSS + Framer Motion |
+| **Seguridad** | Motor de validación pre-despliegue + Iconografía AESAN |
 
 ---
 
@@ -49,18 +62,9 @@
 | Paso | Acción (Español) | Action (English) |
 | :--- | :--- | :--- |
 | **1. Edición** | Actualiza platos y precios en `initialData.ts`. | Update dishes and prices in `initialData.ts`. |
-| **2. Validación** | La App verifica alérgenos antes de renderizar. | The App auto-validates allergens before rendering. |
-| **3. Filtrado** | El cliente filtra la carta según sus necesidades. | The user filters the menu based on needs. |
-| **4. Despliegue** | Generación estática para producción. | Static generation for production. |
-
----
-
-### 📍 Ubicación y Contacto | Location & Contact
-
-| Dato | Información |
-| :--- | :--- |
-| **Dirección** | José Jesús García Díaz, 2, local F, 41020 · Edificio Henares, Sevilla. |
-| **Teléfono** | 655 68 15 27 |
+| **2. Validación** | La App verifica alérgenos antes de publicar. | The App validates allergens before publishing. |
+| **3. Personalización** | El cliente ajusta la vista en el panel unificado. | The user adjusts the view in the unified panel. |
+| **4. Despliegue** | Generación estática optimizada. | Optimized static generation. |
 
 ---
 
@@ -72,6 +76,6 @@
   </a>
 </p>
 
-*© 2026 CON ARTE · Bar & Restaurante. Todos los derechos reservados. | All rights reserved.*
+*© 2026 Manolo Recio · Senior Graphic & Visual Designer & Scenography Developer. <br>Todos los derechos reservados. | All rights reserved.*
 
 </div>
