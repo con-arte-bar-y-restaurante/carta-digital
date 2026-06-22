@@ -1,7 +1,7 @@
 <div align="center">
 
-# CON ARTE </br> Bar & Restaurante
-### Carta Digital Inteligente con Gestión de Alérgenos en Tiempo Real
+
+# Carta Digital Inteligente con Gestión de Alérgenos en Tiempo Real
 
 <br>
 
@@ -14,49 +14,53 @@
 ---
 
 ### 🎯 Propósito | Purpose
-**La Carta digital de CON ARTE | Bar & Restaurante** es una PWA de alto rendimiento diseñada para la autogestión gastronómica. La plataforma no solo permite una visualización elegante del menú, sino que integra un motor de **validación automática de alérgenos** y un **filtrado interactivo**, garantizando transparencia total y seguridad alimentaria conforme a la normativa vigente antes de que el plato llegue al cliente final.
+
+| Español | English |
+| :--- | :--- |
+| **Carta digital de alto rendimiento.** | **High-performance digital menu.** |
+| PWA diseñada para la gestión autónoma, transparencia en alérgenos y experiencia bilingüe. | PWA designed for autonomous management, allergen transparency, and bilingual experience. |
 
 ---
 
 ### 🌟 Características Clave | Key Features
 
-| Característica | Detalle |
-| :--- | :--- |
-| **Validación de Alérgenos** | **Allergen Auto-Validation** |
-| Revisión y etiquetado automático por cada nueva entrada. | Automatic allergen verification for every new dish. |
-| **Filtro Dinámico de Usuario** | **Interactive Allergen Filtering** |
-| Ocultación de platos en tiempo real según alergias. | Real-time user-driven dish filtering. |
-| **Arquitectura Mobile-First** | **Mobile-First Architecture** |
-| Navegación táctil optimizada para el punto de venta. | Touch-optimized UI for on-site mobile usage. |
-| **Gestión Bilingüe Nativa** | **Native Bilingual Support** |
-| Contenido sincronizado en español e inglés. | Seamless content in both languages. |
+| Característica | Español | English |
+| :--- | :--- | :--- |
+| **Validación Automática** | Revisión y asignación automática de alérgenos por plato. | Automatic allergen verification for every dish. |
+| **Filtrado Dinámico** | Ocultación de platos en tiempo real según alergias. | Real-time dish filtering based on allergies. |
+| **Diseño Mobile-First** | Navegación táctil optimizada para smartphones. | Touch-optimized UI for mobile devices. |
+| **Gestión Bilingüe** | Contenido nativo en español e inglés. | Native content in Spanish and English. |
 
 ---
 
-### 🛠️ Especificaciones Técnicas | Tech Stack
+### 🛠️ Stack Tecnológico | Tech Stack
 
-* **Core:** React, TypeScript.
-* **UI/UX:** Tailwind CSS (Diseño responsivo).
-* **Tooling:** Vite, Lucide Icons.
-* **Seguridad:** Motor de validación de datos previo al despliegue y sistema de iconos SVG estandarizado (AESAN).
+| Componente | Tecnología |
+| :--- | :--- |
+| **Core** | React + TypeScript |
+| **UI/UX** | Tailwind CSS |
+| **Build Tool** | Vite |
+| **Seguridad** | Motor de validación pre-despliegue + Iconografía SVG (AESAN) |
 
 ---
 
 ### ⚙️ Flujo de Operación | Workflow
 
-1.  **Edición:** Añade o modifica platos en `initialData.ts`.
-2.  **Validación Inteligente:** La aplicación revisa automáticamente la integridad de los alérgenos de cada nueva entrada antes de renderizarla para su publicación.
-3.  **Filtrado Activo (Cliente):** El usuario final personaliza su vista ocultando opciones no aptas mediante el selector inteligente en la carta.
-4.  **Despliegue:** Generación estática final optimizada para un rendimiento ultra-rápido en smartphones.
+| Paso | Acción (Español) | Action (English) |
+| :--- | :--- | :--- |
+| **1. Edición** | Actualiza platos y precios en `initialData.ts`. | Update dishes and prices in `initialData.ts`. |
+| **2. Validación** | La App verifica alérgenos antes de renderizar. | The App auto-validates allergens before rendering. |
+| **3. Filtrado** | El cliente filtra la carta según sus necesidades. | The user filters the menu based on needs. |
+| **4. Despliegue** | Generación estática para producción. | Static generation for production. |
 
 ---
 
-### 📍 Ubicación | Location
+### 📍 Ubicación y Contacto | Location & Contact
 
-**CON ARTE · Bar & Restaurante**
-
-* **Dirección:** José Jesús García Díaz, 2, local F, 41020 · Edificio Henares, Sevilla.
-* **Contacto:** 655 68 15 27
+| Dato | Información |
+| :--- | :--- |
+| **Dirección** | José Jesús García Díaz, 2, local F, 41020 · Edificio Henares, Sevilla. |
+| **Teléfono** | 655 68 15 27 |
 
 ---
 
@@ -68,6 +72,6 @@
   </a>
 </p>
 
-*© 2026 CON ARTE · Bar & Restaurante. Todos los derechos reservados.*
+*© 2026 CON ARTE · Bar & Restaurante. Todos los derechos reservados. | All rights reserved.*
 
 </div>
