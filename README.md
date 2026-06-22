@@ -1,93 +1,73 @@
 <div align="center">
 
-# CON ARTE</br>Bar & Restaurante
+# CON ARTE </br> Bar & Restaurante
+### Carta Digital Inteligente con Gestión de Alérgenos en Tiempo Real
 
-<p>
-  <b>Gestión y Publicación (mobile-first) Carta Digital</b><br>
-  <i style="color: #f1c232;">Digital Menu Management and Publication (mobile-first)</i>
-</p>
+<br>
 
-<br><br>
-
-<img src="https://raw.githubusercontent.com/con-arte-bar-y-restaurante/carta-digital/920598f20f879c3f60937729cdf64d70ada030d1/images/logo-con-arte.svg" width="400" alt="Logo CON ARTE · Bar & Restaurante">
+<img src="https://raw.githubusercontent.com/con-arte-bar-y-restaurante/carta-digital/920598f20f879c3f60937729cdf64d70ada030d1/images/logo-con-arte.svg" width="300" alt="Logo CON ARTE">
 
 <br><br>
 
-<a href="https://con-arte-bar-y-restaurante.github.io/carta-digital/" target="_blank">
-  <img src="https://img.shields.io/badge/🚀_VER_CARTA_—_VIEW_MENU-f1c232?style=for-the-badge&labelColor=401201" alt="Ver Carta CON ARTE · Bar & Restaurante" height="45">
-</a>
+[![Ver Carta](https://img.shields.io/badge/🚀_VER_CARTA_—_VIEW_MENU-f1c232?style=for-the-badge&labelColor=401201)](https://con-arte-bar-y-restaurante.github.io/carta-digital/)
 
 ---
 
-### 🌟 Características | Features
-
-| Español | English |
-| :---: | :---: |
-| **Diseño Mobile-First** | **Mobile-First Design** |
-| Optimizado para smartphones con navegación táctil intuitiva. | Optimized for smartphones with intuitive touch navigation. |
-| **Bilingüe completo** | **Fully Bilingual** |
-| Textos adaptados para clientes locales e internacionales. | Texts adapted for local and international customers. |
-| **Control de Alérgenos** | **Allergen Control** |
-| Sistema visual de iconos para seguridad alimentaria. | Visual icon system for food safety. |
-| **Gestión en Tiempo Real** | **Real-Time Management** |
-| Edición de platos, precios y visibilidad al instante. | Instant editing of dishes, prices, and visibility. |
+### 🎯 Propósito | Purpose
+**La Carta digital de CON ARTE | Bar & Restaurante** es una PWA de alto rendimiento diseñada para la autogestión gastronómica. La plataforma no solo permite una visualización elegante del menú, sino que integra un motor de **validación automática de alérgenos** y un **filtrado interactivo**, garantizando transparencia total y seguridad alimentaria conforme a la normativa vigente antes de que el plato llegue al cliente final.
 
 ---
 
-### 🛠️ Tecnología | Tech Stack
+### 🌟 Características Clave | Key Features
 
-| Componente | Herramienta |
-| :---: | :---: |
-| **Framework** | React + TypeScript |
-| **Estilos / Styles** | Tailwind CSS |
-| **Build Tool** | Vite |
-| **Iconos / Icons** | Lucide Icons |
-
----
-
-### 📂 Estructura del Proyecto | Project Structure
-
-| Directorio / Archivo | Función |
-| :---: | :---: |
-| **`/src/components`** | Componentes modulares de la interfaz. <br> *Modular interface components.* |
-| **`/src/data/initialData.ts`** | Base de datos maestra de platos y precios. <br> *Master database for dishes and prices.* |
-| **`/src/services/exportService.ts`** | Lógica para generar archivos HTML y backups. <br> *Logic for generating HTML files and backups.* |
-| **`/src/types`** | Definiciones y contratos de datos. <br> *Data definitions and contracts.* |
+| Característica | Detalle |
+| :--- | :--- |
+| **Validación de Alérgenos** | **Allergen Auto-Validation** |
+| Revisión y etiquetado automático por cada nueva entrada. | Automatic allergen verification for every new dish. |
+| **Filtro Dinámico de Usuario** | **Interactive Allergen Filtering** |
+| Ocultación de platos en tiempo real según alergias. | Real-time user-driven dish filtering. |
+| **Arquitectura Mobile-First** | **Mobile-First Architecture** |
+| Navegación táctil optimizada para el punto de venta. | Touch-optimized UI for on-site mobile usage. |
+| **Gestión Bilingüe Nativa** | **Native Bilingual Support** |
+| Contenido sincronizado en español e inglés. | Seamless content in both languages. |
 
 ---
 
-### ⚙️ Flujo de Actualización | Update Workflow
+### 🛠️ Especificaciones Técnicas | Tech Stack
 
-| Paso | Acción (Español) | Action (English) |
-| :---: | :---: | :---: |
-| **1** | **Editar:** Modifica o añade platos desde la interfaz. | **Edit:** Modify or add dishes from the interface. |
-| **2** | **Backup:** Descarga el nuevo `initialData.ts`. | **Backup:** Download the new `initialData.ts`. |
-| **3** | **Desplegar:** Reemplaza el archivo en el repositorio. | **Deploy:** Replace the file in the repository. |
+* **Core:** React, TypeScript.
+* **UI/UX:** Tailwind CSS (Diseño responsivo).
+* **Tooling:** Vite, Lucide Icons.
+* **Seguridad:** Motor de validación de datos previo al despliegue y sistema de iconos SVG estandarizado (AESAN).
 
 ---
 
-### 📍 Ubicación y Contacto | Location & Contact
+### ⚙️ Flujo de Operación | Workflow
+
+1.  **Edición:** Añade o modifica platos en `initialData.ts`.
+2.  **Validación Inteligente:** La aplicación revisa automáticamente la integridad de los alérgenos de cada nueva entrada antes de renderizarla para su publicación.
+3.  **Filtrado Activo (Cliente):** El usuario final personaliza su vista ocultando opciones no aptas mediante el selector inteligente en la carta.
+4.  **Despliegue:** Generación estática final optimizada para un rendimiento ultra-rápido en smartphones.
+
+---
+
+### 📍 Ubicación | Location
 
 **CON ARTE · Bar & Restaurante**
 
-| Dato | Información |
-| :---: | :---: |
-| **Dirección / Address** | José Jesús García Díaz, 2, local F </br>41020 · Edificio Henares, Sevilla. |
-| **Teléfono / Phone** | 655 68 15 27 |
-
----
-
-*© 2026 CON ARTE · Bar & Restaurante. Todos los derechos reservados.*
-*All rights reserved.*
+* **Dirección:** José Jesús García Díaz, 2, local F, 41020 · Edificio Henares, Sevilla.
+* **Contacto:** 655 68 15 27
 
 ---
 
 <p>
-  <sub style="letter-spacing: 2px; font-weight: 700;">DESARROLLADO POR:</sub><br>
-  <sub style="letter-spacing: 2px; font-weight: 500; color: #f1c232;">DEVELOPED BY:</sub>
+  <sub>DESARROLLADO POR | DEVELOPED BY</sub>
+  <br><br>
+  <a href="https://manolorecio.github.io/Manolo-Recio-Portfolio/" target="_blank">
+    <img src="https://github.com/manolorecio/Manolo-Recio-Portfolio/blob/main/LOGOVERDE.png?raw=true" width="100" alt="Manolo Recio Logo">
+  </a>
 </p>
 
-<a href="https://manolorecio.github.io/Manolo-Recio-Portfolio/" target="_blank">
-  <img src="https://github.com/manolorecio/Manolo-Recio-Portfolio/blob/main/LOGOVERDE.png?raw=true" width="120" alt="Manolo Recio Logo">
-</a>
+*© 2026 CON ARTE · Bar & Restaurante. Todos los derechos reservados.*
+
 </div>
