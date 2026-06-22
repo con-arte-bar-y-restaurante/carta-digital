@@ -1,6 +1,5 @@
 <div align="center">
 
-# CON ARTE | Bar & Restaurante
 ### Carta Digital Inteligente · Accesibilidad Universal y Gestión de Alérgenos
 
 <br>
